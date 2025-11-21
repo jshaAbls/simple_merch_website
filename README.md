@@ -1,3 +1,23 @@
+#Simple Merch Website
+A merchandise website that contains a land page, browse, about, and contact page.
+One of the projects that I am making as I learn how to imporve my web development skills.
+
+Made using ReactJS + Vite. This proje
+ct was made by having its base mostly made of vanilla components of react.
+
+#Libraries used
+•React YARL
+•Typed JS
+
+
+
+
+
+
+
+
+
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
