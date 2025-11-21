@@ -7,6 +7,9 @@ Made using ReactJS + Vite. This project was made by having its base mostly made 
 ## View the Website here
 Link: https://jshaAbls.github.io/simple_merch_website 
 
+# Current Problems
+## Header and Footer only displays upon accessing the link. to be fixed
+
 
 # Libraries used
 •React YARL
