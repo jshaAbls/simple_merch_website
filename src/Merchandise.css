@@ -1,0 +1,266 @@
+.out-container{
+  background-color: hsla(0, 5%, 35%, 0.323);
+  max-width: max-content;
+
+
+  border-radius: 10px;
+  margin: 20px;
+}
+
+
+.card-container{
+    justify-content: center;
+
+    display: flex;
+    flex-wrap: wrap;
+
+    min-width: 500px;
+    min-height: 100vh;
+
+
+    
+
+}
+
+.card {
+    max-height: 500px;
+    width: 250px;
+
+    border: 1px solid rgb(188, 187, 187);
+    border-radius: 10px;
+    box-shadow: 6px 6px 2px rgba(0, 0, 0, 0.2);
+
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+
+
+
+
+    background: #2c2c2c; 
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* 🔹 Hover Effect */
+.card:hover {
+    transform: translateX(-8px) translateY(-6px) scale(1); /* lift up and slightly scale */
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.4); /* stronger shadow */
+    border-color: #ffffff55; /* softer border highlight */
+}
+
+
+
+
+.card .card-image {
+    width: 70%;
+    height: 140px;
+    object-fit: cover;
+
+    border-radius: 20%;
+    margin-bottom: 20px;
+}
+
+
+.card .card-title{
+    font-family: Arial, Helvetica, sans-serif, 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0;
+    color: rgb(214, 206, 206);
+    
+    font-size: clamp(14px, 2vw, 20px); 
+    
+}
+
+.card .card-text {
+    font-family: Arial, Helvetica, sans-serif;
+    color: hsl(0, 0%, 100%);
+
+    padding-right: 5px;
+}
+
+.card hr{
+  border-color: hsl(0, 0%, 100%);
+  border-top-width: 2px;
+
+  margin: 10px;
+}
+
+
+
+.lightbox-details-wrapper {
+
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+
+  position:fixed;       /* overlay */
+
+  top: 0;
+  left: 0;
+  width: 100vw;           /* full screen width */
+  height: 100vh;          /* full screen height */
+  background: rgba(0, 0, 0, 0.85);  /* dim background */
+
+  justify-content: center;
+  align-items: center;
+
+  z-index: 1;          
+
+  box-sizing: border-box;
+
+          animation: fadeInScale 0.4s cubic-bezier(0.4,0,0.2,1);
+      }
+      @keyframes fadeInScale {
+        from {
+          opacity: 0;
+          transform: scale(0.75);
+        }
+        to {
+          opacity: 1;
+          transform: scale(1);
+        }
+}
+
+
+
+
+.lightbox-box {
+  flex: 1;
+  flex-grow: 3;
+
+  max-width: 50%;
+}
+
+.lightbox-box .yarl__container{
+  /* gallery main */
+  background-color:hsla(0, 0%, 0%, 0);
+  width: 120vh;
+}
+
+
+.details-box {
+  flex: 2;
+  height: 100%;
+  max-width: 80vh;
+  background: #222222;
+  padding: 20px;
+  color: #fff;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.5);
+
+  margin-left: auto;
+}
+
+.details-box h2 {
+  margin-top: 0;
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.details-box p {
+  font-size: 1.15rem;
+  line-height: 1.7;
+  color: #e0e0e0;
+  margin-bottom: 1.2em;
+  letter-spacing: 0.01em;
+  font-family: 'Segoe UI', Arial, Helvetica, sans-serif;
+}
+
+.details-box .buy-now{
+  background-color: rgb(139, 5, 5);
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1.2rem;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.buy-now:hover {
+  transition: all 0.3s ease;
+  background-color: rgb(180, 10, 10);
+}
+
+.exit-btn {
+  flex: 2;
+  justify-content: center;
+  position: absolute;
+  top: 15px;
+  right: 20px;
+  border: none;
+  background: rgb(139, 5, 5);
+ 
+  border-radius: 40%;
+
+
+  color: white;
+  font-size: 1.5rem;
+  cursor: pointer;
+
+  width: 70px;
+  height: 60px;
+
+  text-align: center;
+
+}
+
+.exit-btn .icon{
+  font-size: 50px ;
+}
+
+.exit-btn:hover {
+  background-color: rgb(180, 10, 10);
+  transition: all 0.3s ease;
+}
+
+.top-row {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.top-row h1 {
+  color: #f9f9f9;
+  font-family: 'Segoe UI', 'Roboto', Arial, sans-serif;
+  font-size: 2rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+.top-row select {
+  padding: 8px 12px;
+  font-size: 1rem;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  background: #473535;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+.search-input-container{
+  display: flex;
+  flex-direction: column;
+}
+
+.suggestions-list {
+  position: absolute;
+  background: rgb(75, 74, 74);
+  width: 40vh;
+  border: 1px solid #ccc;
+  border-top: none;
+  max-height: 150px;
+  overflow-y: auto;
+  z-index: 100;
+  list-style: none;
+  margin-top: 2rem;
+
+}
+
+.suggestion-item {
+  padding: 8px 12px;
+  cursor: pointer;
+}
+
+.suggestion-item:hover {
+  background-color: #f2f2f2;
+}
