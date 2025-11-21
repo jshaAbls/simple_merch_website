@@ -2,8 +2,11 @@
 A merchandise website that contains a land page, browse, about, and contact page.
 One of the projects that I am making as I learn how to imporve my web development skills.
 
-Made using ReactJS + Vite. This proje
-ct was made by having its base mostly made of vanilla components of react.
+Made using ReactJS + Vite. This project was made by having its base mostly made of vanilla components of react.
+
+## View the Website here
+Link: https://jshaAbls.github.io/simple_merch_website 
+
 
 # Libraries used
 •React YARL
