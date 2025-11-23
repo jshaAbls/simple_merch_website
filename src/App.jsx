@@ -15,13 +15,13 @@ function App() {
   <>
     <Header />
     <Routes>
-        <Route path="/Contact" element={<Contact />} />
-        <Route path="/About" element={<About />} />
-        <Route path="/Merchandise" element={<Merchandise />} />
-        <Route path="/Home" element={<Home />} />
+        <Route path="/simple_merch_website/contact" element={<Contact />} />
+        <Route path="/simple_merch_website/about" element={<About />} />
+        <Route path="/simple_merch_website/merchandise" element={<Merchandise />} />
+        <Route path="/simple_merch_website/home" element={<Home />} />
         {/* <Route path="/" element={<Home />} /> */}
 
-        <Route index element={<Navigate to="/Home" replace />} /> 
+        <Route index element={<Navigate to="/simple_merch_website/home" replace />} /> 
 
     </Routes>
     <Footer/>
