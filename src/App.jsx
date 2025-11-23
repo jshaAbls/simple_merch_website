@@ -15,12 +15,12 @@ function App() {
   <>
     <Header />
     <Routes>
-        <Route path="/contact" element={<Contact />} />
-        <Route path="/about" element={<About />} />
-        <Route path="/merchandise" element={<Merchandise />} />
-        <Route path="/home" element={<Home />} />
+        <Route path="/Contact" element={<Contact />} />
+        <Route path="/About" element={<About />} />
+        <Route path="/Merchandise" element={<Merchandise />} />
+        <Route path="/Home" element={<Home />} />
 
-        <Route index element={<Navigate to="/home" replace />} /> 
+        <Route index element={<Navigate to="/Home" replace />} /> 
 
     </Routes>
     <Footer/>
