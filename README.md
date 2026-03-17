@@ -15,6 +15,34 @@ Link: https://jshaAbls.github.io/simple_merch_website
 •React YARL
 •Typed JS
 
+# ==================Things to ADD==================
+
+
+# **Additional Feats for simple_merch website**
+
+## Widget
+### [CART]
+### --Features--
+-When CLICKED, it will DISPLAY THE PRODUCTS that were added to CART
+-ITEMS can be individually REMOVED 
+- [CHECK OUT] button leads to PAYMENT PAGE
+
+
+## --Buttons inside the selected product--
+### [Buy this product]
+-Directs to PAYMENT PAGE
+
+
+### [Add to cart]
+-ADDS selected product to the user CART
+
+
+## --PAGES--
+###[PAYMENT PAGE]
+#### Contents and Features
+-LIST OF ITEMS that were ADDED to the CART in the merchandise page
+	-ITEMS that were SELECTED can be removed in the CART
+-"Check Out" Button
 
 
 
@@ -23,7 +51,7 @@ Link: https://jshaAbls.github.io/simple_merch_website
 
 
 
-
+# ==================end==================
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
