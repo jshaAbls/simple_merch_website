@@ -168,6 +168,7 @@ const uniqueSizes = Array.from(new Set(products.map((p) => p.size)));
             <h2 className="card-title"> {product.title}</h2>
             <hr></hr>
             <p className="card-text">{product.description}</p>
+            <h4>Price: {product.price} ₱</h4>
         </div>
 ))}
 

@@ -9,7 +9,8 @@
         { src: "https://live.staticflickr.com/65535/46899974544_b16d2409b8_b.jpg" },
     ],
     size: "Small",
-    category: "Toys"
+    category: "Toys",
+    price: 339
   },
   {
     src: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSc1B1fu4MZWQWAvNcqk3DN53BmU9uRTOnQPw&s",
@@ -21,7 +22,8 @@
         {src: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQY8iANlYGsuOCPw9lOzZ1KUP6Y54znUIOWZTD-2zyIKqYKp8aJkvXO3RpUv1ezWhtyVBo&usqp=CAU"}
     ],
     size: "Small",
-    category: "Toys"
+    category: "Toys",
+    price: 200
   },
   {
     src: "https://shoplineimg.com/5ac7c81f10abb97e99008258/651a5ef2b606920020652904/800x.jpg?",
@@ -33,7 +35,8 @@
       {src:"https://shoplineimg.com/5ac7c81f10abb97e99008258/651a5ef2ba1c78001473ebfd/800x.jpg?"}
     ],
     size:"Medium",
-    category:"Accessories"
+    category:"Accessories",
+    price: 200
   },
   {
     src:"https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcThA0RMcinyq1b_z4tJb92oCSbdX8swUJ4BMkRIvYhtyCexkrVAB0QO_9bvX9XGxLaqBSCDNw4NFSQnmnYLHPiXON9jf7rgxNXYeE0hkKZHo_0aTl1FQwJ3cw",
@@ -45,7 +48,8 @@
       {src:"https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcSxzHxBV83wflcmGsVcXnwS3AqrlCYKUpfgUHBg2vK3wjM_f0b0kiSYlYsoFMCWiV0jxEUKxgEzWmC03wSwBSrRPgEWDBOFqQXedC17Pd4"}
     ],
     size:"Small",
-    category:["Toys", "Musical Instruments"]
+    category:["Toys", "Musical Instruments"],
+    price: 300
   },
     {
     src:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1ixMSo-Rl71VC9zZQgF1zJ4oo4ITLyGLoew&s",
@@ -57,7 +61,8 @@
       {src:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRexTM1EoQJpx8_TQM92FX09jKBpdlirxzR69vXxdCEEJAQLNOFfn6QpOyNoODo23Y0cOY&usqp=CAU"}
     ],
     size:"Medium",
-    category:"Musical Instruments"
+    category:"Musical Instruments",
+    price: 600
   },
     {
     src:"https://m.media-amazon.com/images/I/61JpwjLgm+L._AC_SL1500_.jpg",
@@ -69,7 +74,8 @@
       {src:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQrnfKnHLsA6zrVQ1yd6fsNMv5s7fsYjA7OpJx2AbiWzSJcG8fnPtdXPqZlopLxZFUI9j0&usqp=CAU"}
     ],
     size:"Large",
-    category:"Accessories"
+    category:"Accessories",
+    price: 1800
   },
       {
     src:"https://m.media-amazon.com/images/I/71t7svFM7+L.jpg",
@@ -81,7 +87,8 @@
       {src:"https://cdn11.bigcommerce.com/s-ejfi37frk5/images/stencil/500x659/products/13237/57181/ff-3608-5__94657.1701729565.jpg?c=2"}
     ],
     size:"Large",
-    category:["Toys", "Accessories"]
+    category:["Toys", "Accessories"],
+    price: 3000
   },
       {
     src:"https://hobbymaniaz.com.au/cdn/shop/files/DMC02yamato_2.jpg?v=1707374942",
@@ -93,7 +100,8 @@
       {src:"https://m.media-amazon.com/images/I/61hBTIzPCnL._UF1000,1000_QL80_.jpg"}
     ],
     size:"Large",
-    category:["Toys", "Accessories"]
+    category:["Toys", "Accessories"],
+    price: 2900
   },
       {
     src:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSLDD3MsRpj2vekrEFORFp1mKFPbp2DVaw59A&s",
@@ -105,7 +113,8 @@
       {src:"https://www.pcmarket.com.au/assets/alt_4/ZJG00131.jpg?20250820171456"}
     ],
     size:"Large",
-    category:["Toys", "Accessories"]
+    category:["Toys", "Accessories"],
+    price: 2900
   },
       {
     src:"https://i0.wp.com/teknofun-entertainment.com/medias/uploads/2018/12/GUD_811280_GUDETAMA_LED_LAMP_10in_F_D.jpg",
@@ -117,7 +126,8 @@
       {src:"https://media.karousell.com/media/photos/products/2022/7/18/sanrio__gudetama__solid_figuri_1658146862_b3d0c9ec_progressive.jpg"}
     ],
     size:"Small",
-    category:"Toys"
+    category:"Toys",
+    price: 250
   },
       {
     src:"https://i.ebayimg.com/images/g/4t8AAOSwc~5jTwc~/s-l1200.jpg",
@@ -128,7 +138,8 @@
       {src:"https://i.ebayimg.com/images/g/iQwAAOSwoIRnTMzj/s-l1200.jpg"},
       {src:"https://i.etsystatic.com/27297124/r/il/0f27be/4571611476/il_1080xN.4571611476_mi2p.jpg"}
     ],
-    category:"Toys"
+    category:"Toys",
+    price: 200
   },
       {
     src:"https://img.freepik.com/free-vector/colorful-cute-sticker-collection-vector_53876-172917.jpg?semt=ais_hybrid&w=740&q=80",
@@ -139,7 +150,8 @@
       {src:"https://img.freepik.com/free-vector/colorful-cute-sticker-collection-vector_53876-172917.jpg?semt=ais_hybrid&w=740&q=80"},
       {src:"https://down-ph.img.susercontent.com/file/2adcbf26f049ae137400bf2c62020f00"}
     ],
-    category:"Accessories"
+    category:"Accessories",
+    price: 150
   },
       {
     src:"https://csj-concierge.com/suzukimusic/uploads/products/152/5ce3bd1b19fb0152_l.jpg",
@@ -150,7 +162,8 @@
       {src:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSu_Iwk2RxYGPo2VWg1bhnYj7p-fPPTfGT2AA&s"},
       {src:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRftM_65WSiRuPwHBtgWiuvdTWp-sivGYTcwg&s"}
     ],
-    category:"Musical Instruments"
+    category:"Musical Instruments",
+    price: 500
   },
       {
     src:"https://www.strangecattoys.com/cdn/shop/files/IMG_6118.jpg?v=1754011718",
@@ -161,7 +174,8 @@
       {src:"https://keapop.com/cdn/shop/files/IMG-0952.webp?v=1757242295&width=1240"},
       {src:"https://cdn11.bigcommerce.com/s-fvv65gjhoq/images/stencil/1200x1200/products/12062/96051/mofusandqcute_1__43432.1755117451.png?c=2"}
     ],
-    category:["Toys","Accessories"]
+    category:["Toys","Accessories"],
+    price: 350
   },
       {
     src:"https://www.ikea.com/ph/en/images/products/skadis-pegboard-black__1231546_pe915898_s5.jpg",
@@ -172,7 +186,8 @@
       {src:"https://www.ikea.com/ph/en/images/products/skadis-pegboard-white__0911099_pe641064_s5.jpg"},
       {src:"https://www.ikea.com/ph/en/images/products/skadis-pegboard-wood__0911107_pe641063_s5.jpg"}
     ],
-    category:"Accessories"
+    category:"Accessories",
+    price: 900
   },
   
 ]
