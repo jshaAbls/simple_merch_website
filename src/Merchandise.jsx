@@ -214,7 +214,7 @@ const uniqueSizes = Array.from(new Set(products.map((p) => p.size)));
     <div className="details-box">
       <h2>{products[openIndex].title}</h2>
       <p>{products[openIndex].description}</p>
-      <p>Price: </p>
+      <p>Price: {product.price} ₱</p>
       <button className="buy-now">Buy This Product</button>
     </div>
       <button className="exit-btn" onClick={() => setOpenIndex(null)}> <AiOutlineClose className="icon" />  </button>
